@@ -1,0 +1,49 @@
+{
+  "About": {
+    "1": "HEY I'M SLIM",
+    "2": "A FULL STACK DEVELOPER",
+    "3": "I am a student at ETNA and I am currently looking for a work placement.  I am more comfortable with web development but I am open to new experiences.",
+    "4": "LIBRAIRIES | FRAMEWORK",
+    "5": "PROGRAMMING LANGUAGES",
+    "6": "OTHER"
+  },
+  "Background_1": {
+    "1": "2020",
+    "2": "LYCÉE JEAN MACÉ",
+    "3": "HIGH SCHOOL DIPLOMA",
+    "4": "During my high school years, I was able to study python during my math classes as well as C during my engineering science classes. At the end of these years, I obtained my high school diploma with honors."
+  },
+  "Background_2": {
+    "1": "2020 - 2022",
+    "2": "UNIVERSITÉ PARIS CITÉ",
+    "3": "BACHELOR'S DEGREE IN COMPUTER SCIENCE",
+    "4": "During my years of computer science degree, I was able to improve my skills in algorithmic. I studied Java and the basics of web development."
+  },
+  "Background_3": {
+    "1": "2022 - 2026",
+    "2": "ETNA",
+    "3": "MASTER'S DEGREE",
+    "4": "I chose to leave my former university for ETNA because of the pedagogy which was not focused on practice, which is the opposite of ETNA."
+  },
+  "Project_1": {
+    "1": "HYRULE CASTLE",
+    "2": " Creation of a mini-RPG with turn-based battles. The project was done in pairs in 4 days. We were able to implement several features like an inventory, magic, different playable characters, classes and races for each character... "
+  },
+  "Project_2": {
+    "1": "BIRDWEAR",
+    "2": " Creation of an e-commerce website with React, the majority of the functionalities that can be found on a on a classic online store are present. (shopping cart, login and registration system connection and registration system, filtering of products according to their category...) "
+  },
+  "Project_3": {
+    "1": "BIRDWEAR API",
+    "2": "Creation of an API with all the basic functionalities (routes, controllers...). Use of Sequelize to model the database."
+  },
+  "Project_4": {
+    "1": "CODECAMP #1",
+    "2": " Creation of a tool facilitating the follow-up of the students for the pedagogical team of ETNA. Our project was mainly to facilitate the follow-up by promotion as well as the taking of individual appointments for students. Use of MongoDB and ExpressJS for the back-end. The front-end was realized with React and the NextJS framework."
+  },
+  "Contact": {
+    "1": "FULL NAME",
+    "2": "E-MAIL",
+    "3": "I WILL REPLY AS SOON AS POSSIBLE."
+  }
+}

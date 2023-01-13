@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.Container h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 0 2rem;
+    height: 10vmin;
+    color: #0a192f;
+    background-color: #64ffda;
+    border-radius: 10px;
+    font-size: 5vmin;
+    font-weight: 900;
+}
+
+.Container h2 {
+    color: #a3a3a3;
+    font-size: 4vmin;
+}
+
+.Container p {
+    margin-left: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    width: 100vmin;
+    font-size: 2.3vmin;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Lora', serif;
+}
+
+.Large {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.Dev {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+}
+
+.Dev i {
+    color: rgb(255, 255, 255);
+    font-size: 6vmin;
+}
+
+.Dev div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+}
+
+.Framework {
+    width: 30vmin;
+    height: 10vmin;
+    background-color: #72a9c2 ;
+    border-radius: 10px;
+}
+
+.Languages {
+    width: 30vmin;
+    height: 10vmin;
+    background-color: #219ebc  ;
+    border-radius: 10px;
+}
+
+.Other {
+    width: 30vmin;
+    height: 10vmin;
+    background-color: #023047;
+    border-radius: 10px;
+}
+
+.Dev section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Dev h4 {
+    color: rgb(236, 236, 236);
+    font-size: 2vmin;
+}
+

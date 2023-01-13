@@ -1,0 +1,8 @@
+.Polygon {
+    color: #66ffda;
+}
+
+.Polygon path {
+    fill: #66ffda;
+    z-index: 999;
+}

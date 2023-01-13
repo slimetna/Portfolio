@@ -1,0 +1,39 @@
+.All {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 93vh;
+}
+
+.Container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.All h1 {
+    color: #eedabc;
+    font-size: 32px;
+    width: 75%;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif
+}
+
+.All h1::after {
+    position: relative;
+    top: -11px;
+    content: '';
+    display: inline-block;
+    width: 300px;
+    height: 1px;
+    background-color: #233554;
+    
+}
+
+
+.All span {
+    color: #66ffda;
+}

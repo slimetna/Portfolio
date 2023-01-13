@@ -1,0 +1,49 @@
+{
+  "About": {
+    "1": "SALUT, JE SUIS SLIM",
+    "2": "UN DÉVELOPPEUR FULL STACK",
+    "3": "Je suis étudiant à l'ETNA et je suis actuellement à la recherche d'une alternance. Je suis plus à l'aise avec le développement web mais je suis ouvert à de nouvelles expériences.",
+    "4": "LIBRAIRIES | FRAMEWORK",
+    "5": "LANGAGES DE PROGRAMMATION",
+    "6": "AUTRE"
+  },
+  "Background_1": {
+    "1": "2020",
+    "2": "LYCÉE JEAN MACÉ",
+    "3": "BACCALAURÉAT SCIENTIFIQUE",
+    "4": "Durant mes années au lycée, j'ai pu étudier les rudiments de Python durant mes cours de Mathématiques ainsi que ceux du C lors de mes cours de sciences de l'ingénieur. J'ai réussi à décrocher un bac scientifique avec mention bien."
+  },
+  "Background_2": {
+    "1": "2020 - 2022",
+    "2": "UNIVERSITÉ PARIS CITÉ",
+    "3": "LICENCE INFORMATIQUE",
+    "4": "Durant mes deux années des licence informatique, j'ai pu développer de solides compétences en algorithmiques. J'ai également pu découvrir le Java ainsi que les bases du développement web."
+  },
+  "Background_3": {
+    "1": "2022 - 2026",
+    "2": "ETNA",
+    "3": "MASTER INFORMATIQUE",
+    "4": "J'ai choisi de quitter mon ancienne université pour venir étudier à l'ETNA, en effet, la pédagogie à l'UPC était trop théorique pour moi. J'ai donc décidé de venir étudier à l'ETNA qui a une pédagogie bien plus axé sur la pratique."
+  },
+  "Project_1": {
+    "1": "HYRULE CASTLE",
+    "2": " Création d'un mini-RPG avec des combats au tour par tour. Le projet a été réalisé en binôme en 4 jours. Nous avons pu y implémenter plusieurs fonctionnalités comme un inventaire, de la magie, différents personnages jouables, des classes et des races pour chaque personnage... "
+  },
+  "Project_2": {
+    "1": "BIRDWEAR",
+    "2": " Création d'un site d'e-commerce avec React, la majorité des fonctionnalités qu'on peut retrouver sur une boutique en ligne classique y sont présentes. (panier, système de connexion et d'enregistrement, filtrage des produits selon leur catégorie...) "
+  },
+  "Project_3": {
+    "1": "BIRDWEAR API",
+    "2": "Création d'une API avec toutes les fonctionnalités basiques (routes, controllers...). Utilisation de Sequelize pour la modélisation de la base de données."
+  },
+  "Project_4": {
+    "1": "CODECAMP #1",
+    "2": " Création d'un outil facilitant le suivi des élèves pour l'équipe pédagogique de l'ETNA. Notre projet devait principalement servir à faciliter le suivi par promotion ainsi que la prise de rendez-vous individuel pour les élèves. Utilisation de MongoDB et ExpressJS pour le back-end. Le front-end a été réalisé avec React ainsi que le framework NextJS."
+  },
+  "Contact": {
+    "1": "NOM COMPLET",
+    "2": "E-MAIL",
+    "3": "JE VOUS RÉPONDRAI DANS LES PLUS BREFS DÉLAIS."
+  }
+}

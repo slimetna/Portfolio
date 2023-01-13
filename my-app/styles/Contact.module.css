@@ -1,0 +1,109 @@
+.All {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 95vh;
+    margin-top: 25vmin;
+}
+
+.All h1 {
+    color: #eedabc;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 50px;
+    font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+    margin-bottom: 100px;
+}
+
+.All h1::after {
+    position: relative;
+    top: -11px;
+    content: '';
+    display: inline-block;
+    width: 300px;
+    height: 1px;
+    background-color: #233554;
+}
+
+
+.FormDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FormDiv button {
+    width: 17vmin;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #64ffda;
+    border: none;
+    font-size: 2.5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+}
+
+.Link {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Form input {
+    width: 56vmin;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.Form input:focus {
+    outline: none;
+}
+
+.Form textarea {
+    width: 56vmin;
+    height: 300px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 5px;
+    resize: none;
+}
+
+.Form textarea:focus {
+    outline: none;
+}
+
+.Form input::placeholder {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.Form button {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.FormDiv button:hover {
+    transition: 0.3s;
+    background-color: #0a192f;
+    color: #fff;
+    border: 1px solid #64ffda;
+}
