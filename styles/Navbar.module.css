@@ -71,12 +71,23 @@
 
 .Link button {
     width: 10vmin;
-    height: 40px;
+    height: 4vmin;
     color: #66ffda;
     border: solid 1px #66ffda;
     border-radius: 5px;
     background-color: #0a192f;
-    font-size: 13px;
+    font-size: 1.5vmin;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.Link a {
+    width: 10vmin;
+    height: 4vmin;
+    color: #66ffda;
+    border-radius: 5px;
+    background-color: #0a192f;
+    font-size: 1.5vmin;
     transition: 0.2s;
     cursor: pointer;
 }

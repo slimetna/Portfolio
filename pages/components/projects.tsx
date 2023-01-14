@@ -45,7 +45,7 @@ export default function Projects() {
     },
     {
       title: t.Project_4_1,
-      image: "../img/CodeCamp1.png",
+      image: "./img/CodeCamp1.png",
       description: t.Project_4_2,
     },
   ];
@@ -61,41 +61,21 @@ export default function Projects() {
         setIsOpen={setPopUp}
       />
       <div className={styles.Container}>
-        {projects.map((project: any, index: any) =>
-          index % 2 === 0 ? (
-            <div
-              onClick={function (event: any) {
-                setPopUp(true);
-                setProject(project);
-              }}
-              data-aos="fade-right"
-              data-aos-anchor-placement="center-bottom"
-            >
-              <ProjectCard
-                key={index}
-                title={project.title}
-                image={project.image}
-                number={"0" + (index + 1)}
-              />
-            </div>
-          ) : (
-            <div
-              onClick={function (event: any) {
-                setPopUp(true);
-                setProject(project);
-              }}
-              data-aos="fade-left"
-              data-aos-anchor-placement="center-bottom"
-            >
-              <ProjectCard
-                key={index}
-                title={project.title}
-                image={project.image}
-                number={"0" + (index + 1)}
-              />
-            </div>
-          )
-        )}
+        {projects.map((project: any, index: any) => (
+          <div
+            onClick={function (event: any) {
+              setPopUp(true);
+              setProject(project);
+            }}
+            data-aos="fade-right"
+          >
+            <ProjectCard
+              key={index}
+              title={project.title}
+              image={project.image}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

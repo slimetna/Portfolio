@@ -44,14 +44,14 @@
 }
 
 .Container h1 {
-    font-size: 32px;
+    font-size: 3vmin;
     font-weight: 700;
     color: #64ffda;
     margin-bottom: 16px;
 }
 
 .Container p {
-    font-size: 16px;
+    font-size: 1.8vmin;
     font-weight: 400;
     color: #8892b0;
 }

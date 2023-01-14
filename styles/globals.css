@@ -12,6 +12,10 @@ html {
   font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 .dWNZQD {
   color: white !important;
 }

@@ -1,16 +1,18 @@
 .Container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 7vmin;
+    margin-top: 15vmin;
 }
 
 @media screen and (max-width: 1850px) {
     .Container {
-        justify-content: center;
-        align-items: center;
         flex-wrap: nowrap;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .All {
         margin-bottom: 100vmin;
@@ -21,31 +23,19 @@
 .All {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
     height: 100vh;
-    margin-top: 10px;
 }
 
 .Title {
     color: #eedabc;
-    font-size: 32px;
+    font-size: 4vmin;
     font-weight: 600;
     text-align: left;
     margin-left: 50px;
     font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif
 }
 
-.Title::after {
-    position: relative;
-    top: -11px;
-    content: '';
-    display: inline-block;
-    width: 300px;
-    height: 1px;
-    background-color: #233554;
-}
+
 
 @media screen and(max-width: 1625px) {
     .Container {
