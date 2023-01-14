@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useRouter } from "next/router";
-import { fr, en } from "./translations";
+import { fr, en } from "../../public/translations";
 
 export default function Navbar() {
   const router = useRouter();
