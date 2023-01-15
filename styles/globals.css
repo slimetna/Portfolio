@@ -44,14 +44,14 @@ svg {
 }
 
 @media screen and (max-width: 800px) {
-  .jzEJVB {
+  .timeline-horizontalstyles__TimelineHorizontalWrapper-sc-1dd6qhe-0 {
       width: 80vmin !important;
   }
-  .gnfenX {
+  .timeline-card-titlestyles__TitleWrapper-sc-13izrht-0 {
       font-size: 3vmin !important;
       color: white !important;
   }
-  .hvCzsb {
+  .timeline-card-contentstyles__TimelineItemContentWrapper-sc-d7qjm1-0 {
       width: 75% !important;
   }
 }
