@@ -16,16 +16,12 @@ html {
   display: none;
 }
 
-.dWNZQD {
+.timeline-card-titlestyles__TitleWrapper-sc-13izrht-0 {
   color: white !important;
+  margin-top: 5px;
 }
 
-.dWNZQD.active {
-  color: #0a192f !important;
-  background-color: #64ffda !important;
-}
-
-.gnfenX.active {
+.timeline-card-titlestyles__TitleWrapper-sc-13izrht-0.active {
   color: #0a192f !important;
   background-color: #64ffda !important;
 }
@@ -54,4 +50,16 @@ svg {
   .timeline-card-contentstyles__TimelineItemContentWrapper-sc-d7qjm1-0 {
       width: 75% !important;
   }
+}
+
+.timelinestyle__TimelineContentRender-sc-cif21b-5 {
+  overflow: hidden;
+}
+
+.timelinestyle__TimelineControlContainer-sc-cif21b-4 {
+  display: none !important;
+}
+
+.timeline-verticalstyles__TimelineVerticalWrapper-sc-1427v1d-0 {
+  margin-top: 7vmin;
 }

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    height: 93vh;
+    height: 95vh;
 }
 
 .Container {
@@ -11,6 +11,8 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 80%;
 }
 
@@ -37,7 +39,7 @@
 
 
 .All span {
-    color: #66ffda;
+    color: #46c4a4;
 }
 
 @media screen and (max-width: 800px) {
@@ -49,6 +51,9 @@
     }
     .Container {
         display: flex;
+    }
+    .All {
+        height: 70vh;
     }
 }
     
