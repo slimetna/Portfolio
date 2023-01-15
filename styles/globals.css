@@ -30,7 +30,7 @@ html {
   display: none !important;
 }
 
-.igUvje:not(.using-icon).active::after {
+.timeline-horizontal-cardstyles__Circle-sc-18iuiou-3::after {
   background-color: white !important;
 }
 
@@ -63,4 +63,3 @@ svg {
 .timeline-verticalstyles__TimelineVerticalWrapper-sc-1427v1d-0 {
   margin-top: 7vmin;
 }
-
