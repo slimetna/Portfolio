@@ -47,7 +47,7 @@ export default function Contact() {
     <div
       className={styles.All}
       data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom"
+      data-aos-anchor-placement="center"
     >
       <h1> .CONTACT </h1>
       <div className={styles.FormDiv}>

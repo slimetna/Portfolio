@@ -68,7 +68,7 @@ export default function Projects() {
               setPopUp(true);
               setProject(project);
             }}
-            data-aos="fade-right"
+            data-aos="flip-left"
           >
             <ProjectCard
               key={index}

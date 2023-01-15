@@ -1,4 +1,5 @@
 .Container {
+    margin-top: 20vmin;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -14,7 +15,7 @@
         align-items: center;
     }
     .All {
-        margin-bottom: 100vmin;
+        margin-bottom: 10vmin;
     }
 }
 
@@ -22,7 +23,10 @@
 .All {
     display: flex;
     flex-direction: column;
-    margin-top: 10vmin;
+    margin-top: 8vmin;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .Title {
@@ -30,7 +34,7 @@
     font-size: 4vmin;
     font-weight: 600;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 4vmin;
     font-family: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif
 }
 
