@@ -4,7 +4,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 7vmin;
-    margin-top: 15vmin;
 }
 
 @media screen and (max-width: 1850px) {
@@ -23,7 +22,7 @@
 .All {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    margin-top: 10vmin;
 }
 
 .Title {

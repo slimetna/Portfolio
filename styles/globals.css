@@ -25,6 +25,11 @@ html {
   background-color: #64ffda !important;
 }
 
+.gnfenX.active {
+  color: #0a192f !important;
+  background-color: #64ffda !important;
+}
+
 .fsWZbl {
   display: none !important;
 }
@@ -36,4 +41,17 @@ html {
 svg {
   width: fit-content;
   height: fit-content;
+}
+
+@media screen and (max-width: 800px) {
+  .jzEJVB {
+      width: 80vmin !important;
+  }
+  .gnfenX {
+      font-size: 3vmin !important;
+      color: white !important;
+  }
+  .hvCzsb {
+      width: 75% !important;
+  }
 }

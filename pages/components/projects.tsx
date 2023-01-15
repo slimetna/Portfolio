@@ -63,6 +63,7 @@ export default function Projects() {
       <div className={styles.Container}>
         {projects.map((project: any, index: any) => (
           <div
+            key={index}
             onClick={function (event: any) {
               setPopUp(true);
               setProject(project);

@@ -6,6 +6,19 @@
 }
 
 .Container {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.Container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -23,8 +36,19 @@
 }
 
 
-
-
 .All span {
     color: #66ffda;
 }
+
+@media screen and (max-width: 800px) {
+    .jzEJVB {
+        width: 80vmin !important;
+    }
+    .Container2 {
+        display: none;
+    }
+    .Container {
+        display: flex;
+    }
+}
+    
