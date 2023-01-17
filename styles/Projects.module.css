@@ -17,12 +17,18 @@
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
     .All {
         margin-top: 45vmin !important;
     }
     .Container {
         width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .All {
+        margin-top: 30vmin !important;
     }
 }
 
