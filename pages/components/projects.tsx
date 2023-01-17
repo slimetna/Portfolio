@@ -23,6 +23,7 @@ export default function Projects() {
     title: "HYRULE CASTLE",
     image: "https://i.imgur.com/2AuZzhv.jpg",
     description: "",
+    link: "",
   };
 
   const [Project, setProject] = useState(defaultProject);
@@ -30,23 +31,27 @@ export default function Projects() {
   const projects = [
     {
       title: t.Project_1_1,
-      image: "https://i.imgur.com/2AuZzhv.jpg",
+      image: "https://w0.peakpx.com/wallpaper/483/1012/HD-wallpaper-breath-hyrule-castle-breath-of-the-wild-zelda.jpg",
       description: t.Project_1_2,
+      link: "https://github.com/slimetna/Hyrule_Castle",
     },
     {
       title: t.Project_2_1,
       image: "./img/MyWebsite.png",
       description: t.Project_2_2,
+      link: "https://github.com/slimetna/MyWebsite"
     },
     {
       title: t.Project_3_1,
       image: "https://appmaster.io/api/_files/PqV7MuNwv89GrZvBd4LNNK/download/",
       description: t.Project_3_2,
+      link: "https://github.com/slimetna/MyAPI",
     },
     {
       title: t.Project_4_1,
       image: "./img/CodeCamp1.png",
       description: t.Project_4_2,
+      link: "https://github.com/slimetna/CodeCamp-1",
     },
   ];
 
@@ -57,6 +62,7 @@ export default function Projects() {
         title={Project?.title}
         image={Project?.image}
         description={Project?.description}
+        link={Project?.link}
         isOpen={popUp}
         setIsOpen={setPopUp}
       />
