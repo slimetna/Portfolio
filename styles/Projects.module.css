@@ -5,20 +5,36 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 7vmin;
+    margin-bottom: 5vmin;
 }
 
-@media screen and (max-width: 1850px) {
+@media screen and (max-width: 1200px) {
     .Container {
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+}
+
+@media screen and (max-width: 1400px) {
     .All {
-        margin-bottom: 10vmin;
+        margin-top: 45vmin !important;
+    }
+    .Container {
+        width: 100% !important;
     }
 }
 
+
+@media screen and (max-width: 450px) {
+    .All {
+        margin-top: 10vmin !important;
+    }
+    .Container {
+        width: 100% !important;
+    }
+}
 
 .All {
     display: flex;

@@ -69,7 +69,8 @@ export default function Projects() {
               setProject(project);
             }}
             data-aos="flip-left"
-          >
+            data-aos-anchor-placement="top-bottom"
+            >
             <ProjectCard
               key={index}
               title={project.title}

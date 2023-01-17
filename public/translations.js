@@ -42,7 +42,7 @@ export const fr = {
     " Création d'un outil facilitant le suivi des élèves pour l'équipe pédagogique de l'ETNA. Notre projet devait principalement servir à faciliter le suivi par promotion ainsi que la prise de rendez-vous individuel pour les élèves. Utilisation de MongoDB et ExpressJS pour le back-end. Le front-end a été réalisé avec React et le framework NextJS.",
   Contact_1: "NOM COMPLET",
   Contact_2: "E-MAIL",
-  Contact_3: "JE VOUS RÉPONDRAS DÈS QUE POSSIBLE.",
+  Contact_3: "Je vous répondrai dès que possible.",
   Contact_4: "ENVOYER",
 };
 
@@ -90,6 +90,6 @@ export const en = {
     " Creation of a tool facilitating the follow-up of the students for the pedagogical team of ETNA. Our project was mainly to facilitate the follow-up by promotion as well as the taking of individual appointments for students. Use of MongoDB and ExpressJS for the back-end. The front-end was realized with React and the NextJS framework.",
   Contact_1: "FULL NAME",
   Contact_2: "E-MAIL",
-  Contact_3: "I WILL REPLY AS SOON AS POSSIBLE.",
+  Contact_3: "I will reply as soon as possible.",
   Contact_4: "SEND",
 };
